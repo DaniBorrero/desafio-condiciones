@@ -56,3 +56,39 @@ embed {
 .img-border img {
     border: none;
 }
+
+.stickers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+}
+
+.stickers img {
+    height: 30vh;
+}
+.card-sticker {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 15vw;
+    padding: 2vw;
+}
+
+.check-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.check-button .check {
+    border: none;
+    cursor: pointer;
+    background-color: #49708a;
+    color: #fff;
+    font-size: 30px;
+    height: 7vh;
+    width: 60vw;
+}

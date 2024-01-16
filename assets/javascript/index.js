@@ -6,3 +6,16 @@ function borderAdd() {
         imagen.style.border = 'none'
     }
 }
+
+function verificar() {
+    // console.log(document.querySelector('#input-1').value)
+    let count1 = Number(document.querySelector('#input-1').value);
+    let count2 = Number(document.querySelector('#input-2').value);
+    let count3 = Number(document.querySelector('#input-3').value);
+    let total = count1+count2+count3;
+    if (total >= 10) {
+        document.querySelector('#parrafo').innerHTML = 'Llevas demasiados stickers'
+    } else {
+        document.querySelector('#parrafo').innerHTML = 'Llevas un total de: '+total
+    }
+}
