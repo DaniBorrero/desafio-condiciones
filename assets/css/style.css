@@ -92,3 +92,9 @@ embed {
     height: 7vh;
     width: 60vw;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
