@@ -1,5 +1,5 @@
 function borderAdd() {
-    let imagen = document.querySelector('#dogImg')
+    let imagen = document.querySelector('#dogImg') 
     if (imagen.style.border === 'none') {
         imagen.style.border = '2px solid red'
     } else {
@@ -29,10 +29,10 @@ function verificarPass() {
     console.log(pass)
 
     if (pass === '911') {
-        alert('password correcto')
+        document.querySelector('#parrafoPass').innerHTML = 'password 1 correcto'
     } else if (pass === '714') {
-        alert('test')
+        document.querySelector('#parrafoPass').innerHTML = 'password 2 correcto'
     } else {
-        alert('hola mundo')
+        document.querySelector('#parrafoPass').innerHTML = 'password incorrecto'
     }
 }
